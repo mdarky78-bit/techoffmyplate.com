@@ -47,4 +47,4 @@ All still there. All still billing you.
 
 If you're reading this thinking "I genuinely don't know what I'm paying for or whether any of it is working" - that's exactly what a Tech Audit is for. Sixty minutes, we go through it together, and you leave knowing what to keep, what to cut, and what to actually set up properly.
 
-[Book a Tech Audit here](https://calendar.app.google/NzPD82Pw7swJMZQ28) — £150, in 60 minutes we can get an audit done and you'll leave with a plan.
+[Book a Tech Audit here](https://calendar.app.google/NzPD82Pw7swJMZQ28)
