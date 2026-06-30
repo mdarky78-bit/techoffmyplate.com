@@ -1,0 +1,24 @@
+---
+layout: base.njk
+ogType: article
+---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ title }}",
+  "description": "{{ description }}",
+  "datePublished": "{{ date | readableDate }}",
+  "author": { "@type": "Person", "name": "Marie" },
+  "publisher": { "@type": "Organization", "name": "Tech Off My Plate" }{% if image %},
+  "image": "https://www.techoffmyplate.com{{ image }}"{% endif %}
+}
+</script>
+<article class="post-body">
+  <div class="wrap">
+    <h1>{{ title }}</h1>
+    <p class="post-meta">{{ date | readableDate }}</p>
+    {% if image %}<img src="{{ image }}" alt="{{ title }}" style="width:100%;">{% endif %}
+    {{ content | safe }}
+  </div>
+</article>

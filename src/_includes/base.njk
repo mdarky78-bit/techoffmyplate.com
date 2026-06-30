@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ title or "Tech Off My Plate" }}</title>
+<meta name="description" content="{{ description or "Tech Off My Plate helps solopreneurs and small business owners sort out their tech: booking systems, automations, email setup, lead magnets and online programmes. Essex-based, remote-friendly. Book a Tech Audit from £150." }}">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.techoffmyplate.com{{ page.url }}">
+
+<meta property="og:type" content="{{ ogType or 'website' }}">
+<meta property="og:site_name" content="Tech Off My Plate">
+<meta property="og:title" content="{{ title or "Tech Off My Plate" }}">
+<meta property="og:description" content="{{ description or "You focus on your clients, I'll handle the tech." }}">
+<meta property="og:image" content="https://www.techoffmyplate.com{{ ogImage or '/images/marie-hero.jpg' }}">
+<meta property="og:url" content="https://www.techoffmyplate.com{{ page.url }}">
+<meta property="og:locale" content="en_GB">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ title or "Tech Off My Plate" }}">
+<meta name="twitter:description" content="{{ description or "You focus on your clients, I'll handle the tech." }}">
+<meta name="twitter:image" content="https://www.techoffmyplate.com{{ ogImage or '/images/marie-hero.jpg' }}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Karla:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+
+{% if eleventyNavigation.key == "Home" or page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Tech Off My Plate",
+  "image": "https://www.techoffmyplate.com/images/marie-hero.jpg",
+  "url": "https://www.techoffmyplate.com/",
+  "email": "marie@techoffmyplate.com",
+  "description": "Tech support, systems and automation for solopreneurs and small business owners. Tech Audits, VIP execution days and ongoing tech retainers.",
+  "areaServed": "GB",
+  "address": { "@type": "PostalAddress", "addressRegion": "Essex", "addressCountry": "GB" },
+  "founder": { "@type": "Person", "name": "Marie", "jobTitle": "Founder, Tech Off My Plate" },
+  "sameAs": ["https://www.instagram.com/techoffmyplate"],
+  "priceRange": "££",
+  "makesOffer": [
+    { "@type": "Offer", "name": "Tech Audit & Quick Fix", "price": "150", "priceCurrency": "GBP" },
+    { "@type": "Offer", "name": "Tech Tune-Up", "price": "95", "priceCurrency": "GBP" },
+    { "@type": "Offer", "name": "VIP Half-Day", "price": "300", "priceCurrency": "GBP" },
+    { "@type": "Offer", "name": "VIP Full-Day", "price": "600", "priceCurrency": "GBP" },
+    { "@type": "Offer", "name": "Monthly Tech Retainer", "price": "150", "priceCurrency": "GBP" }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Who is Tech Off My Plate actually for?", "acceptedAnswer": { "@type": "Answer", "text": "Solopreneurs and small business owners, typically 1 to 4 person teams. That includes consultants, coaches, therapists and other service-based business owners who run most of their business themselves and need their tech to just work without becoming a second job." } },
+    { "@type": "Question", "name": "What actually happens in a Tech Audit?", "acceptedAnswer": { "@type": "Answer", "text": "We hop on a 60-minute video call and go through whatever's slowing you down, whether that's one tool, a workflow, or your whole setup. You'll leave with a clear picture of what's going on and, where possible, 1 to 2 quick fixes done there and then." } },
+    { "@type": "Question", "name": "I don't really know what I need, where do I start?", "acceptedAnswer": { "@type": "Answer", "text": "That's completely normal, and exactly what the Tech Audit is for. You don't need to diagnose the problem yourself. Tell me what feels hard or what isn't working, and I'll help you figure out what's actually going on underneath it." } },
+    { "@type": "Question", "name": "How quickly can I book a Tech Audit?", "acceptedAnswer": { "@type": "Answer", "text": "Booking is instant. Pick a slot that works for you using the booking link, and you'll get a confirmation straight away." } },
+    { "@type": "Question", "name": "What's the difference between a Tech Audit and a VIP Day?", "acceptedAnswer": { "@type": "Answer", "text": "A Tech Audit is about diagnosis and quick wins. A VIP Half-Day or Full-Day is dedicated execution time, used for building or fixing something properly, like a booking system setup, a full tool migration, or launching an online programme." } },
+    { "@type": "Question", "name": "Do you work with specific tools or software?", "acceptedAnswer": { "@type": "Answer", "text": "I work across most of the popular small business tools, including booking platforms, email marketing tools like MailerLite, Google Workspace, Zapier automations, and website builders. If you're not sure whether your tool stack is covered, just ask." } },
+    { "@type": "Question", "name": "Is the Monthly Tech Retainer right for me?", "acceptedAnswer": { "@type": "Answer", "text": "If you've already got your systems set up and just want someone keeping things running, updated, and ticking over, the retainer is built for that. It covers maintenance and small edits rather than new builds or projects." } },
+    { "@type": "Question", "name": "Do you work with businesses outside your local area?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Most of my work happens over video call and screen share, so I can support you wherever you're based." } },
+    { "@type": "Question", "name": "Can we meet in person?", "acceptedAnswer": { "@type": "Answer", "text": "I'm based in Essex, and depending on your location and the package you choose, in-person support can sometimes be arranged. It's always a bespoke discussion between us, and any travel costs are added on top. Just ask if this is something you'd like to explore." } }
+  ]
+}
+</script>
+{% endif %}
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="wrap">
+    <a href="/"><img class="nav-logo" src="/images/wordmark.png" width="700" height="93" alt="Tech Off My Plate"></a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <div class="nav-links">
+      <a href="/#work">What I Help With</a>
+      <a href="/#pricing">Pricing</a>
+      <a href="/#about">About</a>
+      <a href="/#faq">FAQ</a>
+      <a href="/blog/">Blog</a>
+      <a class="btn btn-primary" href="https://calendar.app.google/NzPD82Pw7swJMZQ28" target="_blank" rel="noopener">Book Tech Audit</a>
+    </div>
+    <label for="nav-toggle" class="nav-toggle-btn"><span></span><span></span><span></span></label>
+  </div>
+</nav>
+
+{{ content | safe }}
+
+<div class="foot-bottom">
+  <div class="social-row" style="margin-bottom:14px;">
+    <a href="https://www.instagram.com/techoffmyplate" target="_blank" rel="noopener" aria-label="Tech Off My Plate on Instagram">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+    </a>
+  </div>
+  <p>&copy; 2026 Tech Off My Plate &middot; techoffmyplate.com</p>
+</div>
+
+</body>
+</html>

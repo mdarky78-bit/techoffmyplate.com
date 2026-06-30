@@ -1,0 +1,25 @@
+---
+layout: base.njk
+title: "Blog | Tech Off My Plate"
+description: "Practical tech tips, tool walkthroughs and real client stories for solopreneurs and small business owners, from Tech Off My Plate."
+permalink: /blog/
+---
+<section class="blog-list">
+  <div class="wrap">
+    <div class="eyebrow">From The Blog</div>
+    <h2 class="section-title">Tips, tools and real client stories</h2>
+    <div class="rule"></div>
+
+    <div style="margin-top:30px;">
+      {% for post in collections.blog | reverse %}
+      <a class="post-card" href="{{ post.url }}">
+        <div class="post-date">{{ post.data.date | readableDate }}</div>
+        <h3>{{ post.data.title }}</h3>
+        <p>{{ post.data.description }}</p>
+      </a>
+      {% else %}
+      <p style="color:#7A8699;">New posts coming soon.</p>
+      {% endfor %}
+    </div>
+  </div>
+</section>

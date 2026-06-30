@@ -1,0 +1,25 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# This connects the editor to your Netlify Identity login.
+# In your Netlify dashboard: Site settings > Identity > Enable Identity,
+# then Identity > Services > enable Git Gateway.
+# Invite yourself as a user under Identity > Invite users.
+
+media_folder: "src/images/blog"
+public_folder: "/images/blog"
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "src/blog/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog-post.njk" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Short Description", name: "description", widget: "text", hint: "Shown on the blog listing page and used for SEO. Keep it to 1-2 sentences." }
+      - { label: "Cover Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
