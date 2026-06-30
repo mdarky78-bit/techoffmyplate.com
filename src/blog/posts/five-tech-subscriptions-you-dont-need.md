@@ -1,29 +1,50 @@
 ---
 layout: blog-post.njk
-title: "Five Tech Subscriptions Most Solopreneurs Don't Need"
+title: Five Tech Subscriptions Most Solopreneurs Don't Need
 date: 2026-06-30
-description: "A quick audit of the tools that quietly drain your bank account each month, and what to use instead."
+description: You're probably paying for tools you barely open. Here's what I
+  find in almost every business I audit - and what to do about it.
 ---
-If you run your business mostly on your own, there's a good chance you're paying for more software than you actually use. Here are five of the most common culprits I find when I run a Tech Audit for a new client.
+Most small business owners I work with are paying for more software than they use, more than they need, and more than they realise.  Purely because at some point, someone told them they needed it, or they signed up during a free trial and forgot, or they upgraded once for a specific thing and never downgraded.
 
-## 1. The "all in one" platform you only use for one thing
+I do a tech audit and within about twenty minutes I've usually found at least one subscription that makes the person across the screen wince and say "oh god, I forgot about that one."
 
-Plenty of premium platforms bundle email marketing, courses, websites and CRM into one subscription. If you're only using the email side, you're paying for three products you don't touch.
+Here's what comes up almost every time.
 
-## 2. Duplicate scheduling tools
+## 1. The all-in-one platform you only use for one thing
 
-It's common to find a booking tool, a separate calendar sync tool, and a third reminder app all doing overlapping jobs. Most booking platforms already handle all three.
+These are the big ones. The platforms that promise to do everything - your website, your email list, your courses, your booking system, your CRM - all under one roof.
 
-## 3. A premium plan you upgraded to once and forgot about
+Sounds brilliant. But in practice, most people use one feature and pay for fifteen.
 
-Often a free trial nudge turns into a permanent upgrade. Worth checking your billing history once a year.
+If you're only using the email side of a £60 a month platform, you could probably get the same functionality from a free MailerLite account and put that money back in your pocket every single month.
+
+## 2. A booking tool AND a separate calendar sync tool AND a reminder app
+
+Three tools doing the job that one tool should be doing.
+
+Most decent booking platforms already handle calendar syncing and automated reminders. If yours doesn't, you're either on the wrong plan or the wrong platform - and we can sort that.
+
+## 3. A premium plan you upgraded to once and never revisited
+
+This is so common and funny because I am a sucker for premium features. This is where you needed one feature for a launch, or a client project, or a campaign. So you upgraded. The thing ended. The subscription did not.
+
+Sit down once a year and go through your bank statement line by line. I promise you'll find something that makes you curse! (get in quick before the renewal surprise).
 
 ## 4. Tools that don't talk to each other
 
-If your booking system, your email list and your invoicing tool don't sync automatically, you're either doing manual data entry or paying for a tool that can't do its job properly within your stack.
+This one is less about what you're paying and more about what you're losing - as in time, every single week.
 
-## 5. Software bought for a launch that never repeated
+If your booking system doesn't connect to your email list, you're manually adding people. If your payment tool doesn't link to your invoicing software, you're doing double admin. If none of it connects, you're essentially employing yourself as a very expensive data entry person.
 
-A one-off webinar or course launch sometimes leaves a subscription running quietly in the background long after the campaign ended.
+Automation exists everywhere now, and it's less complicated to set up. And it saves hours - actual hours every single month.
 
-A simple audit usually pays for itself within the first month.
+## 5. Software from a launch that never happened again
+
+The webinar platform from the one webinar you ran in 2023. The course hosting tool from the programme you soft-launched and then paused. The project management app three people used for six weeks.
+
+All still there. All still billing you.
+
+If you're reading this thinking "I genuinely don't know what I'm paying for or whether any of it is working" - that's exactly what a Tech Audit is for. Sixty minutes, we go through it together, and you leave knowing what to keep, what to cut, and what to actually set up properly.
+
+[Book a Tech Audit here](https://calendar.app.google/NzPD82Pw7swJMZQ28) — £150, in 60 minutes we can get an audit done and you'll leave with a plan.
