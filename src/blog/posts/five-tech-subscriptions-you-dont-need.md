@@ -3,11 +3,11 @@ layout: blog-post.njk
 title: Five Tech Subscriptions Most Solopreneurs Don't Need
 date: 2026-06-30
 description: You're probably paying for tools you barely open. Here's what I
-  find in almost every business I audit - and what to do about it.
+  find in almost every business I review - and what to do about it.
 ---
 Most small business owners I work with are paying for more software than they use, more than they need, and more than they realise.  Purely because at some point, someone told them they needed it, or they signed up during a free trial and forgot, or they upgraded once for a specific thing and never downgraded.
 
-I do a tech audit and within about twenty minutes I've usually found at least one subscription that makes the person across the screen wince and say "oh god, I forgot about that one."
+When I review a business's tools, within about twenty minutes I've usually found at least one subscription that makes the person across the screen wince and say "oh god, I forgot about that one."
 
 Here's what comes up almost every time.
 
@@ -45,6 +45,6 @@ The webinar platform from the one webinar you ran in 2023. The course hosting to
 
 All still there. All still billing you.
 
-If you're reading this thinking "I genuinely don't know what I'm paying for or whether any of it is working" - that's exactly what a Tech Audit is for. Sixty minutes, we go through it together, and you leave knowing what to keep, what to cut, and what to actually set up properly.
+If you're reading this thinking "I genuinely don't know what I'm paying for or whether any of it is working" - that's exactly the kind of thing we can work through together. Start with a free introductory call and we'll work out whether a Tech Working Session or a Systems Review is the right next step.
 
-[Book a Tech Audit here](https://calendar.app.google/NzPD82Pw7swJMZQ28)
+[Book a free introductory call](https://calendar.app.google/5X8u7FaaufFGnoS19)

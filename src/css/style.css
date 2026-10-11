@@ -7,7 +7,7 @@
     --muted:#7A8699;
   }
   *{box-sizing:border-box;}
-  html{scroll-behavior:smooth;}
+  html{scroll-behavior:smooth; scroll-padding-top:72px;}
   body{
     margin:0;
     font-family:'Karla',sans-serif;
@@ -245,6 +245,7 @@
     white-space:nowrap;
     display:block;
   }
+  .service-row .service-price small{font-size:12.5px; font-weight:500; color:var(--muted);}
   .service-meta{flex:1;}
   .service-cta-row{
     margin-top:26px;
