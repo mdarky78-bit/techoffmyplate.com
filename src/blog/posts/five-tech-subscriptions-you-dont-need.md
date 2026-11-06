@@ -45,6 +45,6 @@ The webinar platform from the one webinar you ran in 2023. The course hosting to
 
 All still there. All still billing you.
 
-If you're reading this thinking "I genuinely don't know what I'm paying for or whether any of it is working" - that's exactly the kind of thing we can work through together. Start with a free introductory call and we'll work out whether a Tech Working Session or a Systems Review is the right next step.
+If you're reading this thinking "I genuinely don't know what I'm paying for or whether any of it is working" - that's exactly the kind of thing we can work through together. Start with a free introductory call and we'll work out the right next step, whether that's some Tech Working Hours or a closer look at your systems.
 
 [Book a free introductory call](https://calendar.app.google/5X8u7FaaufFGnoS19)
