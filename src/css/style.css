@@ -52,6 +52,16 @@
   }
   nav.topnav .nav-links a:first-child{margin-left:0;}
   nav.topnav .nav-links a:hover{color:var(--orange);}
+  nav.topnav .nav-dropdown{position:relative; padding:8px 0;}
+  nav.topnav .nav-submenu{
+    display:none; position:absolute; top:100%; left:-14px; min-width:240px;
+    background:#fff; border:1px solid #ECE8E0; border-radius:8px;
+    box-shadow:0 8px 24px rgba(30,41,59,0.10); padding:6px 0; z-index:60;
+  }
+  nav.topnav .nav-dropdown:hover .nav-submenu,
+  nav.topnav .nav-dropdown:focus-within .nav-submenu{display:block;}
+  nav.topnav .nav-links .nav-submenu a{display:block; margin-left:0; padding:9px 16px; font-weight:500; white-space:nowrap;}
+  nav.topnav .nav-links .nav-submenu a:hover{background:var(--paper);}
   nav.topnav .btn{padding:9px 18px; font-size:13px;}
   .nav-toggle{display:none;}
   .nav-toggle-btn{
@@ -80,6 +90,9 @@
     }
     nav.topnav .nav-links a{margin-left:0; padding:10px 0; width:100%;}
     nav.topnav .nav-links a.btn{margin-top:8px; text-align:center;}
+    nav.topnav .nav-dropdown{padding:0; width:100%;}
+    nav.topnav .nav-submenu{display:block; position:static; border:none; box-shadow:none; min-width:0; padding:0 0 0 14px;}
+    nav.topnav .nav-links .nav-submenu a{padding:8px 0; font-weight:500; font-size:13px; white-space:normal;}
     .nav-toggle:checked ~ .nav-links{display:flex;}
     .nav-toggle-btn{display:block;}
     nav.topnav{position:relative;}
