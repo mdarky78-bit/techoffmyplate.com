@@ -424,4 +424,7 @@
   article.post-body .post-meta{font-size:13px; color:var(--muted); margin-bottom:30px; font-family:'Poppins',sans-serif; font-weight:600;}
   article.post-body p{font-size:16px; color:#3a4456; margin-bottom:18px;}
   article.post-body img{border-radius:12px; margin:24px 0;}
+  article.post-body ul{margin:0 0 18px; padding-left:22px; font-size:16px; color:#3a4456;}
+  article.post-body li{margin-bottom:6px;}
+  article.post-body h3{font-size:17px; color:var(--navy); margin-top:22px; margin-bottom:6px;}
   article.post-body h2{font-size:23px; color:var(--navy); margin-top:34px; margin-bottom:12px;}
